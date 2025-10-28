@@ -2,7 +2,7 @@
     --primary: #1aa78a;
     --accent: #104989;
     --muted: #666;
-    --wave-bg: #015871; 
+    --wave-bg: #015871;
     font-family: "Segoe UI", Roboto, Arial, sans-serif;
 }
 
@@ -52,6 +52,32 @@ main {
     height: 350px;
     border-radius: 50%;
     border: 7px solid var(--primary)
+}
+
+@media screen and (max-width: 480px) {
+    #card {
+        padding: 3rem .8rem;
+        margin-left: .7rem;
+        margin-right: .7rem;
+    }
+
+    #image-container>img {
+        width: 200px;
+        height: 200px;
+        border-width: 5px;
+    }
+
+    hgroup {
+        margin-bottom: 2rem;
+    }
+
+    hgroup>h1 {
+        font-size: 28px !important;
+    }
+
+    hgroup>h2 {
+        font-size: 18px !important; 
+    }
 }
 
 hgroup {
